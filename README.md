@@ -2,7 +2,7 @@
 # Simple CRUD API
 
 -Add Services "Google Sheets API"
-
+```ruby
 var ss = SpreadsheetApp.openById('SpreadsheetID');
 var sheet = ss.getSheetByName('sheetName ex. Sheet1');
 
@@ -101,3 +101,4 @@ function deleteData(e) {
   }
   return ContentService.createTextOutput('Data not found');
 }
+```
