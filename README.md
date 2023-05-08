@@ -3,7 +3,7 @@
 
 -For use Sheets File -> Extensions -> Apps Script <br>
 -Add Services "Google Sheets API"<br>
--Simple url api {mehod} https://script.google.com/macros/s/xxxxxxxxxxxxxxxxxxxxxx/exec?action=getData
+-Simple url api {method} https://script.google.com/macros/s/xxxxxxxxxxxxxxxxxxxxxx/exec?action=getData
 
 ```ruby
 var ss = SpreadsheetApp.openById('SpreadsheetID');
