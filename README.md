@@ -1,9 +1,10 @@
 # crud-google-sheets-restful-api
 # Simple CRUD API
 
--Add Services "Google Sheets API"
-
 -For use Sheets File -> Extensions -> Apps Script
+-Add Services "Google Sheets API"
+-Simple url api {mehod} https://script.google.com/macros/s/xxxxxxxxxxxxxxxxxxxxxx/exec?action=getData
+
 ```ruby
 var ss = SpreadsheetApp.openById('SpreadsheetID');
 var sheet = ss.getSheetByName('sheetName ex. Sheet1');
