@@ -2,6 +2,8 @@
 # Simple CRUD API
 
 -Add Services "Google Sheets API"
+
+-For use Sheets File -> Extensions -> Apps Script
 ```ruby
 var ss = SpreadsheetApp.openById('SpreadsheetID');
 var sheet = ss.getSheetByName('sheetName ex. Sheet1');
